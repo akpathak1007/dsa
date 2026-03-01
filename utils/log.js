@@ -22,8 +22,8 @@ class Performance {
     this.#identifier.push(temp);
     console.log("START ", temp, this.#getTime());
   }
-  endLog() {
-    console.log("END ", this.#identifier.pop(), this.#getTime());
+  endLog(data) {
+    console.log("END ", this.#identifier.pop(), this.#getTime(), data);
   }
 }
 
