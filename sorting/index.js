@@ -88,3 +88,15 @@
    - python sorted()
    - c++ std::sort()
  */
+
+/**
+   Other type of odering
+   1. Ascending Order (Small -> big)
+   2. Descending Order (Big -> small)
+   3. Lexicographic Order (Dictionary)
+   4. Custom and key based order
+   5. Number vs Lexial Ordering : String-> "10", "2","30" || Lexical sort
+   6. Stable and Unsable Ordering: stable sort keeps equal element in original order ([A, score 90], [b, socre 90])
+   7. Multi level Sorting : Sort by age, name, then city
+   8. Domain Specific Sorting : By Date, Distance, priority, frequency, relevence, score
+ */
